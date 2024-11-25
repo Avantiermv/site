@@ -1,2 +1,21 @@
 @charset "UTF-8";
 
+:root{
+    --azul: #0111a5;
+    --branco: #ffff;
+    --preto: black;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+header{
+    background-color: var(--azul);
+}

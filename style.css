@@ -19,3 +19,7 @@ body{
 header{
     background-color: var(--azul);
 }
+
+#menudesktop{
+    display: none;
+}

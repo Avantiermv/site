@@ -1,9 +1,13 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
     --azul: #0111a5;
     --branco: #ffff;
     --preto: black;
+    --fonte1: "Montserrat", sans-serif;
+    --fonte2: "Hind Madurai", sans-serif;
 }
 
 *{
@@ -16,10 +20,71 @@ body{
     color: var(--branco);
 }
 
+/*Mobile First*/
+
 header{
     background-color: var(--azul);
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#menudesktop{
+#menudesktop, #menumobile{
     display: none;
+}
+
+#title{
+    padding: 10px;
+    margin: 10px;
+}
+
+#menuimgmobile{
+    padding: 10px;
+    margin: 10px;
+}
+
+#title > h1{
+    font-family: var(--fonte1);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#title > p{
+    font-family: var(--fonte2);
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.sections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+.divsection{
+    margin: 15px;
+}
+
+.sections h1{
+    font-family: var(--fonte1);
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.sections p{
+    font-family: var(--fonte2);
+    font-size: 15px;
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
 }

@@ -1,1 +1,5 @@
+let menuMobile;
 
+function start(){
+    
+}

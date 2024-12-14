@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --azul: #0111a5;
+    --azul: #165FF2;
+    --titulo: #165FF2;
     --branco: #ffff;
     --preto: black;
     --fonte1: "Montserrat", sans-serif;
@@ -30,6 +31,20 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+main h1{
+    color: var(--titulo);
+}
+
+#aboutme a{
+    font-style: italic;
+    font-weight: bolder;
+    color: #277FF2;
+}
+
+#sectionme p{
+    margin: 15px;
 }
 
 #menudesktop, #menumobile{
@@ -60,10 +75,10 @@ header{
 
 .sections{
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    margin: 15px;
+    margin: 20px;
     padding: 15px;
 }
 
@@ -86,5 +101,36 @@ header{
     display: flex;
     flex-direction: row;
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
+    background-color: var(--branco);
+    color: black;
+    border-radius: 15px;
+}
+
+.projectsdescription{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.imgprojects{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: red;
+}
+
+a{
+    font-family: var(--fonte2);
+    text-decoration: none;
+    color: var(--titulo);
+    cursor: pointer;
+}
+
+footer{
+    background-color: var(--azul);
+    font-family: var(--fonte1);
+    font-size: 10px;
+    text-align: center;
+    padding: 25px;
 }

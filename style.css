@@ -99,12 +99,14 @@ main h1{
 
 .projects{
     display: flex;
-    flex-direction: row;
+    flex-flow: column wrap;
+    align-items: center;
     padding: 10px;
     margin: 20px;
     background-color: var(--branco);
     color: black;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .projectsdescription{
@@ -133,4 +135,11 @@ footer{
     font-size: 10px;
     text-align: center;
     padding: 25px;
+}
+
+
+
+#descriçãoprojetos{
+    display: none;
+    margin: 20px;
 }

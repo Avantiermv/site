@@ -109,17 +109,25 @@ main h1{
     cursor: pointer;
 }
 
+.imgprojects{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: red;
+}
+
 .projectsdescription{
     display: flex;
     align-items: center;
     margin: 5px;
 }
 
-.imgprojects{
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    background-color: red;
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: inline;
 }
 
 a{
@@ -135,11 +143,4 @@ footer{
     font-size: 10px;
     text-align: center;
     padding: 25px;
-}
-
-
-
-#descriçãoprojetos{
-    display: none;
-    margin: 20px;
 }

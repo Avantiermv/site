@@ -47,8 +47,16 @@ main h1{
     margin: 15px;
 }
 
-#menudesktop, #menumobile{
+#menudesktop{
     display: none;
+}
+
+#menumobile.hidden{
+    display: none;
+}
+
+#menumobile.visible{
+    display: block;
 }
 
 #title{

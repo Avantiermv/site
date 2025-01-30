@@ -1,4 +1,11 @@
 const projects = document.querySelectorAll('.projects');
+const menu = document.getElementById('menuimgmobile');
+const menumobile = document.getElementById('menumobile');
+
+menu.addEventListener('click', () => {
+    menumobile.classList.toggle('visible' /*!menumobile.classList.contains('visible')*/);
+    menumobile.classList.toggle('hidden' /*!menumobile.classList.contains('hidden')*/);
+});
 
 projects.forEach(project => {
     project.addEventListener('click', () => {

@@ -1,0 +1,16 @@
+Marcos Colares
+Computer Scientist
+
+Menu mobile/Desktop: 
+- About Me
+- My projects
+- My Story
+- Social Media
+- Copy email
+
+About me:
+Graduating in Computer Science at IFMA(Instituto Federal do Marnhão), currently in the 3rd period.
+The pragramming languages that i use are JavaScript, HTML and CSS (I know, html and css aren't pragramming languages in fact). I'm also studying TypeScript, Data Structure, OOP and Web Development.
+
+My Story:
+I started to study about pragramming and tecnology at the end of 2021. In 2022 I put a bit more effort and started studying more and I did some things using HTML and CSS, but nothing involving JavaScript. 

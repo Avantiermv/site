@@ -1,10 +1,10 @@
 const projects = document.querySelectorAll('.projects');
-const menu = document.getElementById('menuimgmobile');
-const menumobile = document.getElementById('menumobile');
+const menu = document.getElementById('menu-img-mobile');
+const menumobile = document.getElementById('menu-mobile');
 
 menu.addEventListener('click', () => {
-    menumobile.classList.toggle('visible' /*!menumobile.classList.contains('visible')*/);
-    menumobile.classList.toggle('hidden' /*!menumobile.classList.contains('hidden')*/);
+    menumobile.classList.toggle('visible');
+    menumobile.classList.toggle('hidden');
 });
 
 projects.forEach(project => {

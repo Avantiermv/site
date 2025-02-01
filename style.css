@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root{
+:root {
     --azul: #165FF2;
     --titulo: #165FF2;
     --branco: #ffff;
@@ -11,19 +11,19 @@
     --fonte2: "Hind Madurai", sans-serif;
 }
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     background-color: var(--preto);
     color: var(--branco);
 }
 
 /*Mobile First*/
 
-header{
+header {
     background-color: var(--azul);
     padding: 10px;
 
@@ -33,55 +33,62 @@ header{
     align-items: center;
 }
 
-main h1{
+main h1 {
     color: var(--titulo);
 }
 
-#aboutme a{
+#aboutme a {
     font-style: italic;
     font-weight: bolder;
     color: #277FF2;
 }
 
-#sectionme p{
+#sectionme p {
     margin: 15px;
 }
 
-#menudesktop{
+#menu-desktop {
     display: none;
 }
 
-#menumobile.hidden{
+#menu-mobile.hidden {
     display: none;
 }
 
-#menumobile.visible{
+#menu-mobile.visible {
     display: block;
+    background-color: var(--branco);
+    padding: 40px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
-#title{
+#title {
     padding: 10px;
     margin: 10px;
 }
 
-#menuimgmobile{
+#menu-img-mobile {
     padding: 10px;
     margin: 10px;
 }
 
-#title > h1{
+#title>h1 {
     font-family: var(--fonte1);
     font-weight: bold;
     font-size: 25px;
 }
 
-#title > p{
+#title>p {
     font-family: var(--fonte2);
     font-weight: lighter;
     font-size: 15px;
 }
 
-.sections{
+.sections {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -90,22 +97,22 @@ main h1{
     padding: 15px;
 }
 
-.divsection{
+.divsection {
     margin: 15px;
 }
 
-.sections h1{
+.sections h1 {
     font-family: var(--fonte1);
     font-weight: bold;
     font-size: 19px;
 }
 
-.sections p{
+.sections p {
     font-family: var(--fonte2);
     font-size: 15px;
 }
 
-.projects{
+.projects {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -117,35 +124,35 @@ main h1{
     cursor: pointer;
 }
 
-.imgprojects{
+.imgprojects {
     width: 30px;
     height: 30px;
     border-radius: 30px;
     background-color: red;
 }
 
-.projectsdescription{
+.projectsdescription {
     display: flex;
     align-items: center;
     margin: 5px;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
-.visible{
+.visible {
     display: inline;
 }
 
-a{
+a {
     font-family: var(--fonte2);
     text-decoration: none;
     color: var(--titulo);
     cursor: pointer;
 }
 
-footer{
+footer {
     background-color: var(--azul);
     font-family: var(--fonte1);
     font-size: 10px;

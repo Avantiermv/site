@@ -37,13 +37,13 @@ main h1 {
     color: var(--titulo);
 }
 
-#aboutme a {
+#about-me a {
     font-style: italic;
     font-weight: bolder;
     color: #277FF2;
 }
 
-#sectionme p {
+#section-me p {
     margin: 15px;
 }
 
@@ -66,12 +66,24 @@ main h1 {
     left: 0;
 }
 
-#title {
+#back-arrow {
+    background-image: url(assets/icons/back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    border-style: solid;
+    border-color: var(--azul);
+    border-radius: 40px;
+    margin-top: 30px;
+}
+
+#menu-img-mobile {
     padding: 10px;
     margin: 10px;
 }
 
-#menu-img-mobile {
+#title {
     padding: 10px;
     margin: 10px;
 }
@@ -88,6 +100,31 @@ main h1 {
     font-size: 15px;
 }
 
+#div-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 15px;
+}
+
+#div-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+#div-checkbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+#slider{
+    
+}
+
 .sections {
     display: flex;
     flex-flow: column wrap;
@@ -97,7 +134,7 @@ main h1 {
     padding: 15px;
 }
 
-.divsection {
+.div-section {
     margin: 15px;
 }
 
@@ -124,14 +161,14 @@ main h1 {
     cursor: pointer;
 }
 
-.imgprojects {
+.img-projects {
     width: 30px;
     height: 30px;
     border-radius: 30px;
     background-color: red;
 }
 
-.projectsdescription {
+.projects-description {
     display: flex;
     align-items: center;
     margin: 5px;

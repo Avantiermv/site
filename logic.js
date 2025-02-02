@@ -1,10 +1,20 @@
 const projects = document.querySelectorAll('.projects');
 const menu = document.getElementById('menu-img-mobile');
-const menumobile = document.getElementById('menu-mobile');
+const menuMobile = document.getElementById('menu-mobile');
+const backArrow = document.getElementById('back-arrow');
 
 menu.addEventListener('click', () => {
-    menumobile.classList.toggle('visible');
-    menumobile.classList.toggle('hidden');
+    if(menuMobile.classList.contains('hidden')){
+        menuMobile.classList.remove('hidden');
+        menuMobile.classList.add('visible');
+    } 
+});
+
+backArrow.addEventListener('click', () => {
+    if(menuMobile.classList.contains('visible')){
+        menuMobile.classList.remove('visible');
+        menuMobile.classList.add('hidden');
+    }
 });
 
 projects.forEach(project => {

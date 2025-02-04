@@ -47,3 +47,7 @@ projects.forEach(project => {
         description.classList.toggle('hidden');
     });
 });
+
+function changelanguage(){
+    
+}

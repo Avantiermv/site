@@ -101,18 +101,36 @@ main h1 {
 
 #div-button {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    margin: auto;
     padding: 15px;
+}
+
+#brazil-flag{
+    background-image: url(./assets/icons/brasil.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+#usa-flag{
+    display: none;
+    background-image: url(./assets/icons/united-states.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
 }
 
 /*Switch mobile*/
 #label-checkbox {
     position: relative;
     display: inline-block;
-    width: 60px;
-    height: 30px;
+    width: 50px;
+    height: 25px;
 }
 
 #label-checkbox input {
@@ -136,8 +154,8 @@ main h1 {
 .slider:before {
     position: absolute;
     content: "";
-    height: 22px;
-    width: 22px;
+    height: 17px;
+    width: 17px;
     left: 4px;
     bottom: 4px;
     background-color: white;

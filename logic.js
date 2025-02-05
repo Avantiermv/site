@@ -1,13 +1,16 @@
 const projects = document.querySelectorAll('.projects');
 const menu = document.getElementById('menu-img-mobile');
 const menuMobile = document.getElementById('menu-mobile');
+const main = document.querySelector('main');
 const backArrow = document.getElementById('back-arrow');
 const labelButton = document.getElementById('checkbox');
 const usaFlag = document.getElementById('usa-flag');
 const brazilFlag = document.getElementById('brazil-flag');
 
 menu.addEventListener('click', () => {
-    if(menuMobile.classList.contains('hidden')){
+    if(menuMobile.classList.contains('hidden') && main.classList.contains('visible')){
+        main.classList.remove('visible');
+        main.classList.add('hidden');
         menuMobile.classList.remove('hidden');
         menuMobile.classList.add('visible');
     } 

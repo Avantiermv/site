@@ -65,6 +65,14 @@ main h1 {
     left: 0;
 }
 
+main.hidden{
+    display: none;
+}
+
+main.visible{
+    display: block;
+}
+
 #back-arrow {
     background-image: url(assets/icons/back.png);
     background-size: cover;

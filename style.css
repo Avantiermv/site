@@ -76,14 +76,15 @@ main.visible{
 }
 
 #back-arrow {
-    background-image: url(assets/icons/back.png);
+    background-image: url(assets/icons/left-arrow.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 15px;
     height: 15px;
+    padding: 3px;
     border-style: solid;
     border-color: var(--azul);
-    border-radius: 40px;
+    border-radius: 35px;
     margin-top: 30px;
 }
 
@@ -116,22 +117,29 @@ main.visible{
     padding: 15px;
 }
 
+.flags{
+    border-style: solid;
+    border-color: var(--azul);
+    border-radius: 35px;
+    overflow: hidden;
+}
+
 #brazil-flag{
-    background-image: url(./assets/icons/brasil.png);
+    background-image: url(./assets/icons/brazil-.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     margin-right: 5px;
 }
 
 #usa-flag{
     display: none;
-    background-image: url(./assets/icons/united-states.png);
+    background-image: url(./assets/icons/usaflag.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     margin-right: 5px;
 }
 

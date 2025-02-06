@@ -13,17 +13,15 @@ menu.addEventListener('click', () => {
         main.classList.add('hidden');
         menuMobile.classList.remove('hidden');
         menuMobile.classList.add('visible');
-    } 
-
-    
-
-
+    }
 });
+
 
 backArrow.addEventListener('click', () => {
     if(menuMobile.classList.contains('visible')){
         menuMobile.classList.remove('visible');
         menuMobile.classList.add('hidden');
+        main.classList.add('visible');
     }
 });
 
@@ -54,6 +52,8 @@ projects.forEach(project => {
         description.classList.toggle('hidden');
     });
 });
+
+
 
 function changelanguage(){
     

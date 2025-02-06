@@ -14,6 +14,10 @@ menu.addEventListener('click', () => {
         menuMobile.classList.remove('hidden');
         menuMobile.classList.add('visible');
     } 
+
+    
+
+
 });
 
 backArrow.addEventListener('click', () => {

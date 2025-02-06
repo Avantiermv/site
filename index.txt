@@ -18,10 +18,10 @@ In my spare time, I like to play games like Skyrim, read books like The Lord of 
 
 My projects:
 Project 1 - title: Contact Form
-
+It's a website where the user should be able to interact with a form to contact a company or something related. Error messages should appear if the user doesn't fill in a field correctly. If they fill in all the information correctly, the user will see a message confirming that the information has been sent!
 
 Project 2 - title: Social Dashboard 
-
+It's a type of calculator that calculates your age according to your date of birth. This calculator shows the days, months and years you've lived. It was a great challenge, the biggest yet! It was a great way to test my knowledge, and after completing this challenge, I realized that I needed to study a lot more.
 
 Project 3 - Interactive Rating
-
+It's a website where the user chooses a number from 1 to 5, as if it were an opinion. By choosing one of the numbers and clicking on “Submit”, the user should see a thank you screen.
